@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 
 exports.run = (bot,message,args) => {
-	if(message.content.startsWith("!")) return;
     let embed = new Discord.RichEmbed()
 
     .setTitle("Meu ping invocador!")
