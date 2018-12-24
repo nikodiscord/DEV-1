@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const bot = new Discord.Client(); 
 const config = require("./config.json"); 
 const fs = require("fs");
-const moment = require("moment");
 bot.commands = new Discord.Collection();
 
 fs.readdir("./comandos/", (err, files) => {
@@ -33,7 +32,6 @@ bot.on('message', message => {
     let arquivocmd = bot.commands.get(command.slice(prefix.length));
     if(arquivocmd) arquivocmd.run(bot,message,args);
 
-   
 })
 
 bot.login(config.token);
