@@ -13,3 +13,11 @@
 ______________________________
 #//node js     
 ______________________________
+
+#//ERROR AO EXECULTAR A CODE
+
+#CANNOT MODULO DISCORD.JS OU ALGO DO TIPO
+
+#DIGITE NA CMD
+
+ npm i discord.js
